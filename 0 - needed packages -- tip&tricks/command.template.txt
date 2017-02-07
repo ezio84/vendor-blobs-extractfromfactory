@@ -1,3 +1,6 @@
-./execute-all.sh -d angler -a angler -b NBD90X -o /home/ezio/Android/android-prepare-vendor-master/vendor/ -y
- 
+./execute-all.sh -d angler -i "/home/ezio/Android/vendor-blobs-extractfromfactory/vendor/angler-n4f26o-factory-c53f0a50.zip" --gplay -y -o /home/ezio/Android/vendor-blobs-extractfromfactory/vendor -b N4F26O -k --deodex-all
 
+
+unmount to delete out folders
+umount "/home/ezio/Android/vendor-blobs-extractfromfactory/vendor/angler/n4f26o/factory_imgs_data/system"
+umount "/home/ezio/Android/vendor-blobs-extractfromfactory/vendor/angler/n4f26o/factory_imgs_data/vendor"
