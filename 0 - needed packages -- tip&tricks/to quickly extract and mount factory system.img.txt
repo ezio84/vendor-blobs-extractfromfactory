@@ -1,0 +1,5 @@
+simg2img system.img system.raw.img
+
+mkdir /mnt/my_system
+
+mount -t ext4 -o loop system.raw.img /mnt/my_system
