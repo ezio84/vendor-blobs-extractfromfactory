@@ -1,0 +1,10 @@
+https://github.com/alperakcan/fuse-ext2 (needs to be compiled on the system)
+
+To fix compilation issues on opensuse:
+in the config.ac file add "AM_PROG_CC_C_O"
+then 
+$ ./autogen.sh
+$ ./configure
+$ make
+$ sudo make install
+ 

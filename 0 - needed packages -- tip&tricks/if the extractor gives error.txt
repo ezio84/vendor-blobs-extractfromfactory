@@ -1,0 +1,6 @@
+at least on opensuse i need to run the whole thing as root otherwise fuse-ext2 can't mount the imgs
+so run "su" then the extractor script
+
+extracted vendor blobs will have root as owner, then u need to take ownership
+
+moved the fuse-ext2 bin from /usr/local/bin to the root bin folder

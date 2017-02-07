@@ -1,0 +1,3 @@
+./execute-all.sh -d angler -a angler -b NBD90X -o /home/ezio/Android/android-prepare-vendor-master/vendor/ -y
+ 
+
