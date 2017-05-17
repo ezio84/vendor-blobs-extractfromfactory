@@ -1,4 +1,4 @@
-./execute-all.sh -d angler -i "/home/ezio/Android/vendor-blobs-extractfromfactory/vendor/angler-n2g47h-factory-f1111327.zip" --gplay -y -o /home/ezio/Android/vendor-blobs-extractfromfactory/vendor -b N2G47H -k --deodex-all
+./execute-all.sh -d angler -i "/home/ezio/Android/vendor-blobs-extractfromfactory/vendor/angler-n2g47h-factory-f1111327.zip" --full -y -o /home/ezio/Android/vendor-blobs-extractfromfactory/vendor -b N2G47H -k --deodex-all
 
 (at least on my system i need to run it with SU powers)
 to allow normal user access the files: chown -R ezio:users FOLDERNAME 
