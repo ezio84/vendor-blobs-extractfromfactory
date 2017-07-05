@@ -572,7 +572,7 @@ gen_mk_for_bytecode() {
     fi
 
     # APKs under /vendor should not be optimized & always use the PRESIGNED cert
-    if [[ "$fileExt" == "apk" && "$RELROOT" == "vendor" ]]; then
+    if [[ "$fileExt" == "apk" && "$relRoot" == "vendor" ]]; then
       cert="PRESIGNED"
     elif [[ "$fileExt" == "apk" ]]; then
       # All other APKs have been repaired & thus need resign
